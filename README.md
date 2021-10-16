@@ -1,10 +1,12 @@
 # apnoncepy
-(WIP) Gathering Apnonce from A12 Bionic+ iDevices with Python 3
+Extracting APNonce via Python with ctypes
 
-## Plans
+## Run
 
-(These plans will be proceeded when my mid-term exam ends)
+If you are running windows, **you must build shared library with make.**
 
-### The easy and dirty way - calling subprocesses
+```bash
+make
+python3 .
+```
 
-The easiest way would be making subprocess calls manually. The code would 
