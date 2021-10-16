@@ -1,4 +1,4 @@
-all: libpayload.so
+all: clean libpayload.so
 
 
 clean: 
